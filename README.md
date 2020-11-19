@@ -13,7 +13,7 @@ conda install -c fastai -c pytorch -c anaconda fastai gh anaconda
 ### Problems with Windows machines
 If you're using a Windows machine and the above installation instructions don't work, consider using Google Colab to open up this assignment's Jupyter notebook. You can access any public GitHub Jupyter Notebook on Google Colab by replacing the `github.com` in the URL with `colab.research.google.com/github`, like so: [https://colab.research.google.com/github/UberHowley/haii-a4/blob/main/Satire_Bot.ipynb]( https://colab.research.google.com/github/UberHowley/haii-a4/blob/main/Satire_Bot.ipynb). Make sure you save regularly!
 
-If using Google Colab, you'll need to follow instructions for getting the language data in place, and you'll also need to download the file as a `.ipnyb` to submit your final assignment.
+If using Google Colab, you'll need to create a `lib' directory in the Google Colab notebook and upload the .json file with the data. When done, you'll also need to download the file as a .ipnyb to submit your final assignment to Glow.
 
 ### Using Anaconda
 Install Anaconda Python 3.6 (or greater) if you haven't already for our previous assignments. [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/) You'll need Jupyter Notebook, and pandas, at the very least.
