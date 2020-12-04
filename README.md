@@ -11,7 +11,7 @@ conda install -c fastai -c pytorch -c anaconda fastai gh anaconda
 ```
 
 ### Problems with Windows machines
-If you're using a Windows machine and the above installation instructions don't work, consider using Google Colab to open up this assignment's Jupyter notebook. You can access any public GitHub Jupyter Notebook on Google Colab by replacing the `github.com` in the URL with `colab.research.google.com/github`, like so: [https://colab.research.google.com/github/UberHowley/haii-a4/blob/main/Satire_Bot.ipynb]( https://colab.research.google.com/github/UberHowley/haii-a4/blob/main/Satire_Bot.ipynb). Make sure you save regularly!
+If you're using a Windows machine and the above installation instructions don't work, consider using Google Colab to open up this assignment's Jupyter notebook. You can access any public GitHub Jupyter Notebook on Google Colab by replacing the github.com in the URL with colab.research.google.com/github, like so: `https://colab.research.google.com/github/UberHowley/haii-a4/blob/main/Satire_Bot.ipynb`. Make sure you save regularly! When you are reading data in our notebook, you need to copy the “data” folder to some place you can access from Colab. See Tip 2 in the [Configuring Google Colab Like A Pro](https://medium.com/@robertbracco1/configuring-google-colab-like-a-pro-d61c253f7573). (Here's some additional [Colab tips](https://medium.com/@robertbracco1/configuring-google-colab-like-a-pro-d61c253f7573))
 
 Google Colab appears to be using fastai v1, we need fastaiv2. Add this line to the top of your Google Colab: `!pip install fastai --upgrade -q`
 
