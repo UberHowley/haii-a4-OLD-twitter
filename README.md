@@ -4,21 +4,18 @@
 **DO THIS FIRST!** It may take some time for Twitter to approve you! Read the instructions in Glow and watch the Assignment 4 video for directions on how to do this.
 
 ## Step #1 Install Necessary Programming Modules (new!)
-This week, in addition to Anaconda Python 3.6 (or greater) with Jupyter Notebooks and pandas, you'll also need to install the `tweepy` and `fastai` modules. For tweepy, you may be able to use the `conda install -c conda-forge tweepy` of possibly the `pip install tweepy` command. If you pip install fastai, you'll need to install `pytorch` first, [according to the fastai installation instructions](https://docs.fast.ai/#Installing). Alternatively, using conda (and on Windows, the conda shell) would be best, as we're using Anaconda python:
+This week, in addition to Anaconda Python 3.6 (or greater) with Jupyter Notebooks and pandas, you'll also need to install the `tweepy` and `fastai` modules. For tweepy, you may be able to use the `conda install -c conda-forge tweepy` or possibly the `pip install tweepy` command. If you pip install fastai, you'll need to install `pytorch` first, [according to the fastai installation instructions](https://docs.fast.ai/#Installing). Alternatively, using conda (and on Windows, the conda shell) would be best, as we're using Anaconda python:
 
 ```
 conda install -c fastai -c pytorch -c anaconda fastai gh anaconda
 ```
 
-### Problems with Windows machines
-If you're using a Windows machine and the above installation instructions don't work, consider using Google Colab to open up this assignment's Jupyter notebook. You can access any public GitHub Jupyter Notebook on Google Colab by replacing the github.com in the URL with colab.research.google.com/github, like so: `https://colab.research.google.com/github/UberHowley/haii-a4/blob/main/Satire_Bot.ipynb`. Make sure you save regularly! When you are reading data in our notebook, you need to copy the “data” folder to some place you can access from Colab. See Tip 2 in the [Configuring Google Colab Like A Pro](https://medium.com/@robertbracco1/configuring-google-colab-like-a-pro-d61c253f7573). (Here's some additional [Colab tips](https://medium.com/@robertbracco1/configuring-google-colab-like-a-pro-d61c253f7573))
-
-Google Colab appears to be using fastai v1, we need fastaiv2. Add this line to the top of your Google Colab: `!pip install fastai --upgrade -q`
-
-If using Google Colab, you'll need to create a `lib' directory in the Google Colab notebook and upload the .json file with the data. When done, you'll also need to download the file as a .ipnyb to submit your final assignment to Glow.
-
 ### Using Anaconda
 Install Anaconda Python 3.6 (or greater) if you haven't already for our previous assignments. [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/) You'll need Jupyter Notebook, and pandas, at the very least.
+
+### Problems with Module Versions, or with Windows machines
+If you're using a Windows machine and the above installation instructions don't work, or encountering significant issues with module version and installation, consider using Google Colab to open up this assignment's Jupyter notebook. You can access any public GitHub Jupyter Notebook on Google Colab by replacing the github.com in the URL with colab.research.google.com/github, like so: `https://colab.research.google.com/github/UberHowley/haii-a4/blob/main/Satire_Bot.ipynb`. Make sure you save regularly! When you are reading data in our notebook, you need to copy the “data” folder to some place you can access from Colab. These instructions and more are available via the Video lecture for this assignment.
+
 
 ## Step #2 Download homework files
 Download all the files in this repository. Place these files into a well-named folder on your computer, and click on the zip file to unzip the data folder. You will zip all the files in this directory and submit the `.zip` file to Glow when completed.
@@ -47,6 +44,7 @@ If you haven't used Jupyter Notebooks before, a good first step for you would be
     * [pandas.series.str.count](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.count.html)
 - Fastai:
   * [fastai Language Modeling](https://docs.fast.ai/tutorial.text.html#The-ULMFiT-approach)
+  * [fastai help forum](https://forums.fast.ai/)
   * [fastai](https://www.fast.ai/)
 - Tweepy:
   * [Twitter Developer Account](https://developer.twitter.com/en)
